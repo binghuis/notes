@@ -21,9 +21,9 @@ const sse = (url: string, init?: EventSourceInit) => {
 ```
 
 通过 Chrome Dev tools 查看接口信息。
-![[Pasted image 20231212140519.png]]
+![eventsource](./assets/eventsource.png)
 注意，只有通过浏览器原生 `EventSource` 建立的 SSE 连接，类型才是 `eventsource`，也只有在这种情况，浏览器调试面板 EventStream 这栏才能看到数据流信息。
-![[Pasted image 20231212135618.png]]
+![eventsource](./assets/eventstream.png)
 在这个面板里，我们可以看到有两种数据类型，其中 `message` 类型是原生支持的，因此可以使用 `onmessage` 监听，但是 `end` 事件并不是 `EventSource` 原生支持的，因此需要使用 `addEventListener` 监听。
 
 SSE 接口具体返回什么事件类型什么数据都是服务端控制的，下面是一段 python 实现的 SSE 代码片段：
