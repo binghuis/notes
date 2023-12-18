@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "如何实现类 ChatGPT 的数据流式传输.md",
+                "file": "什么是 CSR、SSR、SSG.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#root",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "如何实现类 ChatGPT 的数据流式传输.md",
+                "file": "什么是 CSR、SSR、SSG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "如何实现类 ChatGPT 的数据流式传输.md",
+                "file": "什么是 CSR、SSR、SSG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "如何实现类 ChatGPT 的数据流式传输.md"
+                "file": "什么是 CSR、SSR、SSG.md"
               }
             }
           }
@@ -146,11 +147,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "52876421c6353527",
+  "active": "7257eb6e76ec323e",
   "lastOpenFiles": [
+    "如何实现类 ChatGPT 的数据流式传输.md",
+    "什么是 CSR、SSR、SSG.md",
+    "assets/csr.png",
+    "Pasted image 20231218160307.png",
+    "Pasted image 20231218160208.png",
     "assets/eventstream.png",
     "assets/eventsource.png",
-    "如何实现类 ChatGPT 的数据流式传输.md",
     "assets",
     "前端开发 - 宋秉徽.md",
     "简历.md",
@@ -161,9 +166,6 @@
     "Pasted image 20231212135930.png",
     "Pasted image 20231212135902.png",
     "Pasted image 20231212135529.png",
-    "Pasted image 20231212135502.png",
-    "Pasted image 20231212135407.png",
-    "Pasted image 20231212134957.png",
     "未命名.canvas"
   ]
 }
