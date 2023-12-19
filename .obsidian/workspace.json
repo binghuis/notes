@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#root",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,10 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7257eb6e76ec323e",
+  "active": "d0216676d4d610ed",
   "lastOpenFiles": [
-    "如何实现类 ChatGPT 的数据流式传输.md",
+    "assets/csr-preview.png",
     "什么是 CSR、SSR、SSG.md",
+    "Pasted image 20231219092337.png",
+    "通过 quicklink 预加载链接页面.md",
+    "如何实现类 ChatGPT 的数据流式传输.md",
     "assets/csr.png",
     "Pasted image 20231218160307.png",
     "Pasted image 20231218160208.png",
@@ -164,8 +166,6 @@
     "Pasted image 20231212135618.png.md",
     "Pasted image 20231212140128.png",
     "Pasted image 20231212135930.png",
-    "Pasted image 20231212135902.png",
-    "Pasted image 20231212135529.png",
     "未命名.canvas"
   ]
 }
