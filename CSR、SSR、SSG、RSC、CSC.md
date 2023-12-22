@@ -46,3 +46,6 @@ SSG 非常适合博客或者技术文档类项目。
 然后将这个树形结构序列化发送到浏览器，浏览器对其进行反序列化，用真正的客户端组件填充 `客户端组件占位符`，并呈现最终结果。
 
 ![rsc-client](./assets/rsc-client.png)
+
+推荐阅读：
+[How React server components work: an in-depth guide](https://www.plasmic.app/blog/how-react-server-components-work)
