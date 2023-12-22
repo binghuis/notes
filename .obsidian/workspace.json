@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbc485ac734a8c34",
+        "id": "8f13608cd1c057d9",
         "type": "tabs",
         "children": [
           {
-            "id": "61e2dda72c344d27",
+            "id": "dfb356922692b1e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,25 +146,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "61e2dda72c344d27",
+  "active": "52876421c6353527",
   "lastOpenFiles": [
+    "Pasted image 20231222145539.png",
+    "CSR、SSR、SSG、RSC、CSC.md",
+    "Pasted image 20231222145516.png",
+    "Pasted image 20231222144756.png.md",
+    "Pasted image 20231222144609.png",
+    "Pasted image 20231222144903.png",
+    "Pasted image 20231222144756.png",
+    "Pasted image 20231222144701.png",
     "assets/rsc-client.png",
     "assets/rsc-placeholders.png",
     "assets/react-tree.png",
-    "CSR、SSR、SSG、RSC、CSC.md",
     "react-server-components.png.md",
     "react-server-components.png",
     "如何实现类 ChatGPT 的数据流式传输.md",
     "未命名.canvas",
     "2023-12-21.md",
-    "assets/csr-preview.png",
-    "Pasted image 20231219092337.png",
     "通过 quicklink 预加载链接页面.md",
-    "assets/csr.png",
-    "Pasted image 20231218160307.png",
-    "Pasted image 20231218160208.png",
-    "assets/eventstream.png",
-    "assets/eventsource.png",
     "assets",
     "前端开发 - 宋秉徽.md",
     "简历.md",

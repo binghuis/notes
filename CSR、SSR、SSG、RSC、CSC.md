@@ -14,7 +14,9 @@ CSR 在首次渲染的时候会加载大量的 JS 等文件，会造成首屏渲
 
 对比客户端渲染，服务端渲染就是在服务端生成完整的静态 HTML 页面，然后发送给浏览器。
 
-然后，浏览器会加载并执行 JS 文件，为静态 DOM 添加事件监听器等，使其具有交互能力。这个过程称为"水合"（Hydration）。
+然后，浏览器会加载并执行 JS 文件，为静态 DOM 添加事件监听器等，使其具有交互能力。
+
+> 给 DOM 添加事件监听器等，使其具有交互能力过程称为"水合"（Hydration）。
 
 SSR 对比 CSR 首屏不需要加载大量的静态文件，服务器直接返回可预览的 HTML 页面，因此 SSR 对于 SEO 更加友好。
 
@@ -29,23 +31,21 @@ SSG 非常适合博客或者技术文档类项目。
 
 ---
 
-**RSC**：React Server Component（服务端组件）
+**RSC**：React Server Component（服务端组件）和 **CSC**：Client Side Component（客户端组件）
 
-服务端组件不是细粒度的服务端渲染，服务端组件专注于数据和内容渲染，不负责交互，因此它只渲染出静态HTML 和 CSS。相比服务端渲染，服务端组件没有水合过程。
+客户端组件和服务端组件其实都是服务端渲染的，它们在服务端生成静态 HTML，然后被序列化之后发送给浏览器。如下图所示，服务端组件在 React Tree 里是静态 HTML 标签，而客户端组件则使用 `客户端组件占位符` 占位。
 
-[Introducing Zero-Bundle-Size React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
-
-**CSC**：Client Side Component（客户端组件）
-
-客户端组件和客户端渲染过程类似，不过完整的客户端组件插入位置不是根元素节点，而是 `客户端组件占位符`。
-
-如下图所示，在服务端渲染出由基础 HTML 标签和 `客户端组件占位符` 的 React Tree。
+注意：客户端组件里的某些元素实际上并不依赖客户端环境，这部分会通过服务端渲染完整 HTML。而有些客户端组件元素是依赖客户端环境的，因此这些元素在服务器只是渲染了一个初始 HTML，甚至不渲染，那么这部分则需要在客户端进行替换。
 
 ![rsc-placeholders](./assets/rsc-placeholders.png)
 
-然后将这个树形结构序列化发送到浏览器，浏览器对其进行反序列化，用真正的客户端组件填充 `客户端组件占位符`，并呈现最终结果。
+
+浏览器接收到序列化 React Tree 之后对其进行反序列化，复苏 `客户端组件占位符`，并呈现最终结果。
 
 ![rsc-client](./assets/rsc-client.png)
 
+
+
 推荐阅读：
 [How React server components work: an in-depth guide](https://www.plasmic.app/blog/how-react-server-components-work)
+[Introducing Zero-Bundle-Size React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
