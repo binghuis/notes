@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "adf78b26a1da7e58",
+        "id": "dbc485ac734a8c34",
         "type": "tabs",
         "children": [
           {
-            "id": "d0216676d4d610ed",
+            "id": "61e2dda72c344d27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "什么是 CSR、SSR、SSG.md",
+                "file": "CSR、SSR、SSG、RSC、CSC.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 359.5
   },
   "right": {
     "id": "9ec042b369353477",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "什么是 CSR、SSR、SSG.md",
+                "file": "CSR、SSR、SSG、RSC、CSC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "什么是 CSR、SSR、SSG.md",
+                "file": "CSR、SSR、SSG、RSC、CSC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "什么是 CSR、SSR、SSG.md"
+                "file": "CSR、SSR、SSG、RSC、CSC.md"
               }
             }
           }
@@ -146,13 +146,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d0216676d4d610ed",
+  "active": "61e2dda72c344d27",
   "lastOpenFiles": [
+    "assets/rsc-client.png",
+    "assets/rsc-placeholders.png",
+    "assets/react-tree.png",
+    "CSR、SSR、SSG、RSC、CSC.md",
+    "react-server-components.png.md",
+    "react-server-components.png",
+    "如何实现类 ChatGPT 的数据流式传输.md",
+    "未命名.canvas",
+    "2023-12-21.md",
     "assets/csr-preview.png",
-    "什么是 CSR、SSR、SSG.md",
     "Pasted image 20231219092337.png",
     "通过 quicklink 预加载链接页面.md",
-    "如何实现类 ChatGPT 的数据流式传输.md",
     "assets/csr.png",
     "Pasted image 20231218160307.png",
     "Pasted image 20231218160208.png",
@@ -162,10 +169,6 @@
     "前端开发 - 宋秉徽.md",
     "简历.md",
     "README.md",
-    "Pasted image 20231212140202.png",
-    "Pasted image 20231212135618.png.md",
-    "Pasted image 20231212140128.png",
-    "Pasted image 20231212135930.png",
-    "未命名.canvas"
+    "Pasted image 20231212135618.png.md"
   ]
 }
