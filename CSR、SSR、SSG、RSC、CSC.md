@@ -35,7 +35,7 @@ SSG 非常适合博客或者技术文档类项目。
 
 客户端组件和服务端组件其实都是服务端渲染的，它们在服务端生成静态 HTML，然后被序列化之后发送给浏览器。如下图所示，服务端组件在 React Tree 里是静态 HTML 标签，而客户端组件则使用 `客户端组件占位符` 占位。
 
-注意：客户端组件里的某些元素实际上并不依赖客户端环境，这部分会通过服务端渲染完整 HTML。而有些客户端组件元素是依赖客户端环境的，因此这些元素在服务器只是渲染了一个初始 HTML，甚至不渲染，那么这部分则需要在客户端进行替换。
+注意：客户端组件里的某些元素实际上并不依赖客户端环境，这部分会通过服务端渲染完整 HTML。而有些客户端组件元素是依赖客户端环境的，因此这些元素在服务器只是渲染了一个初始 HTML，甚至不渲染，那么这部分则需要在客户端进行复苏。
 
 ![rsc-placeholders](./assets/rsc-placeholders.png)
 
@@ -47,5 +47,7 @@ SSG 非常适合博客或者技术文档类项目。
 
 
 推荐阅读：
+
 [How React server components work: an in-depth guide](https://www.plasmic.app/blog/how-react-server-components-work)
+
 [Introducing Zero-Bundle-Size React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
